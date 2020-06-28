@@ -2,20 +2,23 @@
 #telaso ngotak dong anjg   
 #tinggal pake aja ribet-_-
 try:
-    import os,sys,requests,time,json,re                        from time import sleep
+    import os,sys,requests,time,json,re                      
+     from time import sleep
     from requests import post
 except ImportError:
     print ("\033[1;97mModule:\033[1;91mNot Installing!!")
     sleep(1)
     print ("\033[1;97mInstall module...")
     sleep(2)
-    os.system("pip install mechanize requests bs4")            sleep(1)
+    os.system("pip install mechanize requests bs4")          
+    sleep(1)
     print ("\033[1;97mModule:\033[1;92mSuccess Installing..!")
 def bersih():
     os.system('clear')
 def balik():
     os.system("python tools.py")
-def kembali():                                                 try:
+def kembali():                                           
+    try:
         t = input("\033[1;97mKembali? (y/t): ")
         if t == "y":
             balik()
