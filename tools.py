@@ -1,5 +1,6 @@
 #muehehehe mau recode ya?
-#telaso ngotak dong anjg                                   #tinggal pake aja ribet-_-
+#telaso ngotak dong anjg   
+#tinggal pake aja ribet-_-
 try:
     import os,sys,requests,time,json,re                        from time import sleep
     from requests import post
