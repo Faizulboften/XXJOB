@@ -3,7 +3,7 @@
 #tinggal pake aja ribet-_-
 try:
     import os,sys,requests,time,json,re                      
-     from time import sleep
+    from time import sleep
     from requests import post
 except ImportError:
     print ("\033[1;97mModule:\033[1;91mNot Installing!!")
