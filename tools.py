@@ -153,7 +153,7 @@ def spamer():
         }
         dat=json.dumps({"phone":no})
         r = requests.post("https://api.sooplai.com/customer/register/otp/request", data=dat, headers=ua)
-        print ("\033[1;97mSPAM \033[90m=> \033[1;97mBERHASIL")
+        print ("\033[1;97mSPAM \033[90m=> \033[1;92mBERHASIL")
     def call():
         ua = {
         "Host": "api.myfave.com",
