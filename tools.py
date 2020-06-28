@@ -33,7 +33,7 @@ def kata(s):
         time.sleep(1./250)
 def botfb():
     os.system("git clone https://github.com/salismazaya/TAFA")
-    os.system("mv -rf TAFA ~/danz/config")
+    os.system("mv -f TAFA ~/danz/config")
     os.system("python ~/danz/config/TAFA/run.py")
 def spamer():
     def rupa():
@@ -300,12 +300,12 @@ def enc():
     os.system("python2 ~/danz/config/enc.py")
 def tyl():
     os.system("git clone https://github.com/BangDanz/tuyul")
-    os.system("mv -rf tuyul ~/danz/config")
+    os.system("mv -f tuyul ~/danz/config")
     os.system("sh ~/danz/config/tuyul/bot.sh")
 def mbf():
     os.system("git clone https://github.com/KANG-NEWBIE/s-mbf")
-    os.system("mv -rf s-mbf ~/danz/config")
-    os.system("python -m pip install -r ~/danz/config/s-mbf/req.txt")
+    os.system("mv -f s-mbf ~/danz/config")
+    os.system("pip install -r ~/danz/config/s-mbf/req.txt")
     os.system("python ~/danz/config/s-mbf/embf.py")
 def main():
     kata("""
