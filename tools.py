@@ -390,6 +390,7 @@ for pro coder free bacod :)
              main()
         elif f == "03" or f == "3":
              os.system("git pull")
+             balik()
         else:
             print ("\033[1;91mWrong Input!!\033[1;97m")
             sleep(2)
