@@ -16,7 +16,7 @@ except ImportError:
 def bersih():
     os.system('clear')
 def balik():
-    os.system("python tools.py")
+    os.system("python xxdev.py")
 def kembali():                                           
     try:
         t = input("\033[1;97mKembali? (y/t): ")
@@ -58,7 +58,7 @@ def spamer():
             print ("\033[1;97mSPAM \033[90m=> \033[1;92mBERHASIL")
         else:
             print ("\033[1;97mSPAM \033[90m=> \033[1;91mGAGAL")
-            sys.exit("\033[1;97mLimit Gan")
+            sys.exit("\033[1;97mLimit Cuk")
     def tok():
         ua = {
         'Connection' : 'keep-alive',
@@ -177,8 +177,8 @@ def spamer():
             print ("\033[90m> \]33[1;97mSPAM \033[1;94m=> \033[1;91mGAGAL")
         else:
             print ("\033[90m> \033[1;97mSPAM \033[1;94m=> \033[1;92mBERHASIL")
-    no = input("\033[1;97mNO TARGET:\033[90m<(0896×××)> \033[1;92m")
-    br = input("\033[1;97mNO TARGET:\033[90m <(896×××)> \033[1;92m")
+    no = input("\033[31;1mNO TARGET:\033[90m<(0896×××)> \033[1;92m")
+    br = input("\033[31;1mNO TARGET:\033[90m <(896×××)> \033[1;92m")
     try:
         for i in range(1):
             rupa()
@@ -252,9 +252,9 @@ def dfc():
 
 def msp():
     try:
-        print ("\033[1;94m{\033[1;97m01\033[1;94m}\033[1;96m Metasploit Android 5-6")
-        print ("\033[1;94m{\033[1;97m02\033[1;94m}\033[1;96m Metasploit Android 7-10")
-        print ("\033[1;94m{\033[1;97m00\033[1;94m}\033[1;96m Kembali")
+        print ("\033[31;1m{\033[1;97m01\033[1;94m}\033[1;96m Metasploit Android 5-6")
+        print ("\033[31;1m{\033[1;97m02\033[1;94m}\033[1;96m Metasploit Android 7-10")
+        print ("\033[31;1m{\033[1;97m00\033[1;94m}\033[1;96m Kembali")
         print()
         w = input("\033[1;97m> \033[1;92m")
         if w == "01" or w == "1":
@@ -269,7 +269,7 @@ def msp():
         elif w == "00" or w == "0":
              balik()
         else:
-             print ("\033[1;91mWrong Input!!")
+             print ("\033[31;1mWrong Input!!")
     except KeyboardInterrupt:
            sys.exit("\033[1;91mexit")
 def yt():
@@ -279,8 +279,8 @@ def yt():
     except requests.exceptions.ConnectionError:
         print ("\033[1;91mKoneksi Error!!")
     print ("""
-\033[1;94m{\033[1;97m01\033[1;94m}\033[1;96m Vidio Download
-\033[1;94m{\033[1;97m02\033[1;94m}\033[1;96m Music Download""")
+\033[1;94m{\033[1;97m01\033[1;94m}\033[31;1m Vidio Download
+\033[1;94m{\033[1;97m02\033[1;94m}\033[31;1m Music Download""")
     cu = input("\033[1;97m> \033[1;92m")
     if cu == "01" or cu == "1":
        f = input("\033[1;97mLINK: \033[1;92m")
@@ -297,7 +297,7 @@ def yt():
          sleep(1)
          print ("\033[1;97m[\033[1;92m✓\033[1;97m]\033[90m-\033[1;97mDownload\033[90m-\033[1;92mSuccess\n\033[1;97m[\033[1;92mthe music is already in the sdcard folder\033[1;97m]")
     else:
-         print ("\033[1;91mWrong Input!!")
+         print ("\033[31;1mWrong Input!!")
 def enc():
     os.system("python2 ~/danz/config/enc.py")
 def tyl():
@@ -312,16 +312,16 @@ def mbf():
 def main():
     kata("""
     \033[90m------------------------------------
-    \033[1;94m{\033[1;97m01\033[1;94m}\033[1;96m Bot Facebook
-    \033[1;94m{\033[1;97m02\033[1;94m}\033[1;96m Yt Downloaders
-    \033[1;94m{\033[1;97m03\033[1;94m}\033[1;96m Mbf 
-    \033[1;94m{\033[1;97m04\033[1;94m}\033[1;96m Spammer
-    \033[1;94m{\033[1;97m05\033[1;94m}\033[1;96m Deface Orange Themes
-    \033[1;94m{\033[1;97m06\033[1;94m}\033[1;96m Encrypt Python Base64
-    \033[1;94m{\033[1;97m07\033[1;94m}\033[1;96m Python Send Protocol Using Yagmail
-    \033[1;94m{\033[1;97m08\033[1;94m}\033[1;96m Install Metasploit
-    \033[1;94m{\033[1;97m09\033[1;94m}\033[1;96m Tombol Termux
-    \033[1;94m{\033[1;97m10\033[1;94m}\033[1;96m Bot Apk Reward
+    \033[1;94m{\033[1;97m01\033[1;94m}\033[31;1m Bot Facebook
+    \033[1;94m{\033[1;97m02\033[1;94m}\033[31;1m Yt Downloaders
+    \033[1;94m{\033[1;97m03\033[1;94m}\033[31;1m Mbf 
+    \033[1;94m{\033[1;97m04\033[1;94m}\033[31;1m Spammer
+    \033[1;94m{\033[1;97m05\033[1;94m}\033[31;1m Deface Orange Themes
+    \033[1;94m{\033[1;97m06\033[1;94m}\033[31;1m Encrypt Python Base64
+    \033[1;94m{\033[1;97m07\033[1;94m}\033[31;1m Python Send Protocol Using Yagmail
+    \033[1;94m{\033[1;97m08\033[1;94m}\033[31;1m Install Metasploit
+    \033[1;94m{\033[1;97m09\033[1;94m}\033[31:1m Tombol Termux
+    \033[1;94m{\033[1;97m10\033[1;94m}\033[31:1m Bot Apk Reward
     """)
     j = input("\033[1;97m> \033[1;92m")
     if j == "01" or j == "1":
@@ -362,27 +362,23 @@ def login():
         kata("""
         \033[1;96m  <=\033[1;97mMenu Tools\033[1;96m=>
 
-        \033[1;94m{\033[1;97m01\033[1;94m}\033[1;97m Info Tools
-        \033[1;94m{\033[1;97m02\033[1;94m}\033[1;97m Go To Menu
-        \033[1;94m{\033[1;97m03\033[1;94m}\033[1;97m Update Tools
+        \033[1;94m{\033[1;97m01\033[1;94m}\033[31;1m Info Tools
+        \033[1;94m{\033[1;97m02\033[1;94m}\033[31:1m Go To Menu
+        \033[1;94m{\033[1;97m03\033[1;94m}\033[31:1m Update Versi
         """)
         f = input("\033[1;97m> \033[1;92m")
         if f == "1" or f == "01":
             try:
                 kata("""
-\033[90m--------------------------------------------
-\033[1;97m          INFO
-
-\033[1;97mcreator:\033[1;92mFahmiApz
-\033[1;97mYoutube:\033[1;92mApmzChannel
-
-            \033[1;91mNOTE
-\033[1;97mThis script is not made for crime,
-don't buy and sell this script for everyone  free
-for those who want to recode please but think:v
-for pro coder free bacod :)
-\033[90m--------------------------------------------""")
-                time.sleep(2)
+\n\t\033[90m~  ~  ~\033[92m┌∩┐\033[94m(\033[91m◣_◢\033[94m)\033[92m┌∩┐\033[90m~  ~  ~
+\t\033[00m 🔓 MENU TOOLS BY FAIZUL 🔓
+\t\033[90m -----------------------\033[94m\n 
+\033[1;38;5;208m============================================
+\033[1;38;5;208m💥DEVLOPER : FAIZUL BOFTEN
+\033[1;38;5;208m💥FACEBOOK " FAIZUL
+\033[1;38;5;208m💥WA       : 082271426251
+\033[1;38;5;208m============================================""") 
+                time.sleep(5)
                 kembali()
             except KeyboardInterrupt:
                 sys.exit("\033[1;91mSTOP!!\033[1;97m")
